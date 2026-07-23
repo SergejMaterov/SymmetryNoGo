@@ -108,4 +108,4 @@ Section 5.4 of the paper rather than left implicit.
 ## Citing
 
 If this computational appendix is cited independently of the paper, please cite the paper itself
-(DOI: 10.5281/zenodo.21433976) and reference this repository as its computational supplement.
+(DOI: [10.5281/zenodo.21506106](https://doi.org/10.5281/zenodo.21506106)) and reference this repository as its computational supplement.
