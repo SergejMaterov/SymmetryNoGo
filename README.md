@@ -60,8 +60,8 @@ general-*d* scan). For a fast sanity check without waiting on the full run:
 
 ```bash
 python3 src/exact_formulas.py                      # instant
-python3 src/quadrature_verification.py              # ~5 seconds
-python3 src/monte_carlo_d2.py --n 1000000            # ~2 seconds, coarser but indicative
+python3 src/quadrature_verification.py             # ~5 seconds
+python3 src/monte_carlo_d2.py --n 1000000          # ~2 seconds, coarser but indicative
 ```
 
 ## Key numbers (d = 2, exact)
