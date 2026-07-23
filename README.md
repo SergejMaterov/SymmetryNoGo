@@ -19,7 +19,7 @@ uncertainty quantification) with:
 
 ```
 .
-├── README.md                    <- this file
+├── README.md                     <- this file
 ├── requirements.txt              <- numpy, scipy, pandas
 ├── run_all.sh                    <- reproduces every number in Section 5, in order
 ├── LICENSE.md
@@ -40,8 +40,9 @@ the same error would appear in the "check." The three components below are delib
 | Script | Method | Independent of the derivation? |
 |---|---|---|
 | `exact_formulas.py` | Closed-form algebra (the result itself) | — (this *is* the claim) |
-| `quadrature_verification.py` | Deterministic 2D numerical integration directly over `(m, r)`, **without** using the `v = r/|m|` substitution that produces the closed form | Yes — different method, same underlying joint density |
+| `quadrature_verification.py` | Deterministic 2D numerical integration directly over `(m, r)`, **without** using the v = r/\|m\|  substitution that produces the closed form | Yes — different method, same underlying joint density |
 | `monte_carlo_d2.py` | Direct simulation: draw GOE(2) matrices, diagonalize, form the ratio empirically | Yes — makes no use of any analytic step at all |
+
 
 Agreement across all three (to 5+ significant figures for quadrature, to Monte Carlo noise for
 simulation) is the actual evidence that Section 5.2 of the paper is correct, not just internally
