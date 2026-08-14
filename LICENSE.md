@@ -19,5 +19,4 @@ LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE A
 ---
 
 **Text and derived numerical claims** describing the paper itself follow the same license as the
-associated manuscript (CC BY-NC 4.0), consistent with the author's other work in this series. Adjust
-this file if a different license is intended for the accompanying manuscript.
+associated manuscript (CC BY-NC 4.0), consistent with the author's other work in this series.
